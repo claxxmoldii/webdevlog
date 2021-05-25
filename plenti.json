@@ -1,0 +1,12 @@
+{
+  "routes": {
+    "posts": "/posts/:filename",
+    "behindthescenes": "/:filename",
+    "pages": "/:filename",
+    "index": "/:paginate(totalPages)"
+  },
+	"build": "public",
+	"local": {
+		"port": 8888
+	}
+}
